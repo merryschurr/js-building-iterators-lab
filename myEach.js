@@ -2,8 +2,11 @@
 
 function myEach(arr, callback) {
   
-  //  CODE INSIDE HERE   //
-
+	console.log('myEach');
+	for (var i = 0; i <arr.length; i++) {
+		console.log('for' +i);
+		callback(arr[i], i, arr);
+	}
 }
 
 /*
